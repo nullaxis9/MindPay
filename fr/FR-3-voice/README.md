@@ -23,10 +23,10 @@ Requirement: "ผู้ใช้พูดรายการ เช่น 'ข้
 | ไฟล์ | หน้าที่ |
 
 1. | [`src/domain/voice.ts`](../../src/domain/voice.ts) 	ฟังก์ชันล้วนที่แปลงประโยคที่พูดเป็นรายการ (ชื่อ จำนวนเงิน รายรับ/จ่าย หมวด วัน) โดยไม่ใช้ AI
-2. [`src/domain/__tests__/voice.test.ts`]  unit test TC-59 ถึง TC-61 ตรวจเลขคำไทย หลายรายการ รายรับ เมื่อวาน และหน่วยที่ไม่ใช่เงิน
-3. [`src/services/speech.ts`]  	ฟังเสียงภาษาไทยบนมือถือผ่าน expo-speech-recognition โดยโหลดโมดูลแบบไม่บังคับ
-4. [`src/services/speech.web.ts`]  ฟังเสียงภาษาไทยบนเว็บผ่าน Web Speech API
-5. [`src/app/voice.tsx`]  หน้าจอพูดจด: ไมค์ แท่งเสียง ช่องพิมพ์ การ์ดรายการให้ตรวจ และปุ่มบันทึก
+2. | [`src/domain/__tests__/voice.test.ts`](../../src/domain/__tests__/voice.test.ts)  unit test TC-59 ถึง TC-61 ตรวจเลขคำไทย หลายรายการ รายรับ เมื่อวาน และหน่วยที่ไม่ใช่เงิน
+3. | [`src/services/speech.ts`](../../src/services/speech.ts)  	ฟังเสียงภาษาไทยบนมือถือผ่าน expo-speech-recognition โดยโหลดโมดูลแบบไม่บังคับ
+4. | [`src/services/speech.web.ts`](../../src/services/speech.web.ts)  ฟังเสียงภาษาไทยบนเว็บผ่าน Web Speech API
+5. | [`src/app/voice.tsx`](../../src/app/voice.tsx)  หน้าจอพูดจด: ไมค์ แท่งเสียง ช่องพิมพ์ การ์ดรายการให้ตรวจ และปุ่มบันทึก
 
 ### ส่วนกลางที่ฉันดูแลเพิ่ม (ไม่ใช่ของ FR นี้โดยตรง)
 
