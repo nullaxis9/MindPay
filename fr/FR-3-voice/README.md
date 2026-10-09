@@ -30,9 +30,9 @@ Requirement: "ผู้ใช้พูดรายการ เช่น 'ข้
 
 ### ส่วนกลางที่ฉันดูแลเพิ่ม (ไม่ใช่ของ FR นี้โดยตรง)
 
-- **ชุดเทสต์ตรวจบั๊กทั้งแอป (TC-79 ถึง TC-89)** (1 ไฟล์): `src/domain/__tests__/audit.test.ts`
-- **ระบบบัญชีผู้ใช้** (14 ไฟล์): `src/domain/auth.ts`, `src/domain/__tests__/auth.test.ts`, `src/data/authLinks.ts`, `src/data/supabase.ts`, `src/data/storage.ts`, `src/data/storage.web.ts`, `src/data/sessionStorageSetup.ts`, `src/data/sessionStorageSetup.web.ts`, `src/app/welcome.tsx`, `src/app/onboarding.tsx`, `src/ui/AuthNotice.tsx`, `src/ui/StepDots.tsx`, `src/ui/LaunchIntro.tsx`, `docs/SUPABASE_AUTH_SETUP.md`
-- **Design System** (9 ไฟล์): `src/ui/theme.ts`, `src/ui/themeMode.ts`, `src/ui/components.tsx`, `src/ui/effects.tsx`, `src/ui/motion.ts`, `src/ui/nav.ts`, `src/ui/ThemePicker.tsx`, `src/ui/__tests__/theme.test.ts`, `docs/DESIGN_SYSTEM.md`
+ชุดเทสต์ตรวจทั้งแอป (TC-79 ถึง TC-89) (1 ไฟล์): src/domain/__tests__/audit.test.ts
+ระบบบัญชีผู้ใช้ (14 ไฟล์): src/domain/auth.ts, src/domain/__tests__/auth.test.ts, src/data/authLinks.ts, src/data/supabase.ts, src/data/storage.ts, src/data/storage.web.ts, src/data/sessionStorageSetup.ts, src/data/sessionStorageSetup.web.ts, src/app/welcome.tsx, src/app/onboarding.tsx, src/ui/AuthNotice.tsx, src/ui/StepDots.tsx, src/ui/LaunchIntro.tsx, docs/SUPABASE_AUTH_SETUP.md
+Design System (9 ไฟล์): src/ui/theme.ts, src/ui/themeMode.ts, src/ui/components.tsx, src/ui/effects.tsx, src/ui/motion.ts, src/ui/nav.ts, src/ui/ThemePicker.tsx, src/ui/__tests__/theme.test.ts, docs/DESIGN_SYSTEM.md
 
 ## ทำงานยังไง
 
