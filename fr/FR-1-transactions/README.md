@@ -12,6 +12,7 @@
 ## Requirement และเกณฑ์ผ่าน (Acceptance criteria)
 
 *Requirement FR-1*
+
   ผู้ใช้เพิ่ม แก้ไข จัดหมวด และลบธุรกรรมของตนได้
   
   *Acceptance criteria*
